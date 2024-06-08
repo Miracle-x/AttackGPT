@@ -199,10 +199,6 @@ def custom_tabulate(args, scorer=default_scorer, exclude_dir_names=EXCLUDE_DIR_N
                     wrong_tasks.append(task_path)
                     print(task_path)
                     print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-                # if results[1][0] == 0:
-                #     wrong_tasks.append(task_path)
-                #     print(task_path)
-                #     print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
             instance += 1
             instance_dir = os.path.join(task_path, str(instance))
 
